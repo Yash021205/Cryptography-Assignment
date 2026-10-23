@@ -1,0 +1,58 @@
+# ==========================================
+# Build Artifacts & Compiled Binaries (C/C++)
+# ==========================================
+output/bin/
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+
+# ==========================================
+# Python Generated Files & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Editor & IDE specific files
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Submission Archives & Temp Office Files
+# ==========================================
+*.zip
+*.tar.gz
+*.7z
+~$*.docx
